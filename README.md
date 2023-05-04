@@ -51,8 +51,7 @@ Generic statements, such as ``Bees are striped'' are thought to be a central veh
      (view a rendered file [here](https://cicl-stanford.github.io/teleology_and_generics/)).
 - `data/` contains anonymized data from all experiments:
   - `experiment1` contains `experiment1.db` which includes trial and demographic data. 
-  - `experiment2` contains `experiment2.csv` which includes the trial data and `experiment2_demographics.csv` which includes demographic data. The remaining files are for getting the     
-     probabilities of sentence completions for properties used in experiment 2 from large language models. 
+  - `experiment2` contains `experiment2.csv` which includes the trial data and `experiment2_demographics.csv` which includes demographic data. The remaining files are for getting the probabilities of sentence completions for properties used in experiment 2 from large language models. 
   - `experiment3` contains `experiment3.csv` which includes the trial data for experiment 3 while `experiment2_demographics.csv` contains the demographic data.
 - `docs/` contains all the experiment code for `experiment2` and `experiment3`. You can preview the experiments below:
     - Experiment 2 - [Generic condition](https://cicl-stanford.github.io/teleology_and_generics/experiment2/index.html?condition=1),
