@@ -6,6 +6,7 @@ output:
   bookdown::html_document2:
     toc: true
     toc_depth: 4
+    toc_float: true
     theme: cosmo
     highlight: tango
 ---
@@ -44,7 +45,7 @@ options(contrasts = c("contr.sum","contr.poly"))
 
 ```{r}
 
-con = dbConnect(SQLite(), dbname = "../../data/experiment1/experiment1_anonymized.db")
+con = dbConnect(SQLite(), dbname = "../../data/experiment1/experiment1.db")
 df.exp1.data = dbReadTable(con, "teleological_generics")
 dbDisconnect(con)
 
