@@ -2,6 +2,8 @@
 
 This repository contains the experiments, data, analyses, and figures for the paper "Teleology and generics," by David Rose, Siying Zhang, Qi Han and Tobias Gerstenberg.
 
+The preprint can be found [here](https://cicl-stanford.github.io/teleology_generics/)
+
 __Contents__:
 - [Introduction](#Introduction)
 - [Repository structure](#Repository-structure)
@@ -13,7 +15,7 @@ __Contents__:
 <br clear="left" />
 <br clear="right" />
 
-Generic statements, such as ``Bees are striped'' are thought to be a central vehicle by which essentialist beliefs are transmitted. But work on generics and essentialism almost never focuses on the type of properties that are mentioned in generic statements. We test the hypothesis that teleological properties, what something is for, affect essentialist categorization more strongly than behavioral, biological, or social properties. In Experiment 1, participants categorized properties as being either behavioral, biological, social, or teleological. In Experiment 2, we used the top four properties from each group to describe a generic noun or a specific individual. Participants then categorized creatures that had one of their properties transformed. We found that teleological properties carried more weight in categorization. In Experiment 3, we also found that teleological properties mattered more in an induction task. Taken together, our findings suggest that teleological properties play a privileged role in essentialist categorization.
+Generic statements, such as ``Bees are striped'' are thought to be a central vehicle by which essentialist beliefs are transmitted. But work on generics and essentialism almost never focuses on the type of properties mentioned in generic statements. We test the hypothesis that teleological properties, what something is for, affect categorization judgments more strongly than behavioral, biological, or social properties. In Experiment~1, participants categorized properties as being either behavioral, biological, social, or teleological. In Experiment~2, we used the top four properties from each group to describe a generic noun or a specific individual. Participants then categorized creatures that had one of their properties transformed. We found that changes to teleological properties had the strongest impact on categorization judgments. In Experiment~3, we also found that teleological properties mattered more in an induction task. We suggest teleological properties play this privileged role in categorization because they are treated as essential properties.
 
 
 
@@ -43,9 +45,9 @@ Generic statements, such as ``Bees are striped'' are thought to be a central veh
 ```
 
 - `code/` contains all the code for the experiments, analyzing data and generating figures.
-  - `experiments` contains code for each experiment that was run.
-  	- `experiment1` was run in psiturk 
-	- `experiment2` and `experiment3` were run in jsPsych. These are copied in `docs` below where they can be rendered in your browser.
+  - `experiments` contains code for each experiment that was run. Pre-registrations for all experiments may be accessed via the Open Science Framework [here](https://cicl-stanford.github.io/teleology_generics/)
+  	- `experiment1` ([pre-registration](https://cicl-stanford.github.io/teleology_generics/)) was run in psiturk 
+	- `experiment2` ([pre-registration](https://cicl-stanford.github.io/teleology_generics/)) and `experiment3` ([pre-registration](https://cicl-stanford.github.io/teleology_generics/)) were run in jsPsych. These are copied in `docs` below where they can be rendered in your browser.
   - `python` contains scripts that were used to get the probabilities of sentence completions for properties used in experiment 2.
   - `R` contains the analysis scripts that were used to analyze data and generate figures
      (view a rendered file [here](https://cicl-stanford.github.io/teleology_generics/)).
@@ -59,4 +61,3 @@ Generic statements, such as ``Bees are striped'' are thought to be a central veh
     - Experiment 3 - [Generic condition](https://cicl-stanford.github.io/teleology_generics/experiment3/index.html?condition=1),
       [Specific condition](https://cicl-stanford.github.io/teleology_generics/experiment3/index.html?condition=2)
 - `figures/` contains all the figures from the paper (generated using the script in `code/R/`). 
-- `writeup/` contains the final version of the paper
