@@ -2,7 +2,7 @@
 
 This repository contains the experiments, data, analyses, and figures for the paper "Teleology and generics," by David Rose, Siying Zhang, Qi Han and Tobias Gerstenberg.
 
-The preprint can be found [here](https://cicl-stanford.github.io/teleology_generics/)
+The preprint can be found [here](https://psyarxiv.com/p5zt4)
 
 __Contents__:
 - [Introduction](#Introduction)
@@ -45,9 +45,9 @@ Generic statements, such as ``Bees are striped'' are thought to be a central veh
 ```
 
 - `code/` contains all the code for the experiments, analyzing data and generating figures.
-  - `experiments` contains code for each experiment that was run. Pre-registrations for all experiments may be accessed via the Open Science Framework [here](https://cicl-stanford.github.io/teleology_generics/)
-  	- `experiment1` ([pre-registration](https://cicl-stanford.github.io/teleology_generics/)) was run in psiturk 
-	- `experiment2` ([pre-registration](https://cicl-stanford.github.io/teleology_generics/)) and `experiment3` ([pre-registration](https://cicl-stanford.github.io/teleology_generics/)) were run in jsPsych. These are copied in `docs` below where they can be rendered in your browser.
+  - `experiments` contains code for each experiment that was run. Pre-registrations for all experiments may be accessed via the Open Science Framework [here](https://osf.io/kh3xa/)
+  	- `experiment1` ([pre-registration](https://osf.io/4dux6)) was run in psiturk 
+	- `experiment2` ([pre-registration](https://osf.io/a92nj)) and `experiment3` ([pre-registration](https://osf.io/zdegq)) were run in jsPsych. These are copied in `docs` below where they can be rendered in your browser.
   - `python` contains scripts that were used to get the probabilities of sentence completions for properties used in experiment 2.
   - `R` contains the analysis scripts that were used to analyze data and generate figures
      (view a rendered file [here](https://cicl-stanford.github.io/teleology_generics/)).
